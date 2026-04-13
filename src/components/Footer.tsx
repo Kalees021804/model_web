@@ -16,7 +16,11 @@ const Footer = () => {
             >
               <Instagram size={24} />
             </a>
-            <a href="mailto:contact@acadifyx.com">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=acadifyxofficial@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Mail size={24} />
             </a>
           </div>
