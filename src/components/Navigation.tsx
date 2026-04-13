@@ -14,7 +14,7 @@ interface NavigationProps {
 }
 
 const Navigation = ({ currentPage, navigate, scrolled, isMenuOpen, setIsMenuOpen }: NavigationProps) => {
-  const { user, logout, isAuthenticated } = useAuth();
+  const { logout, isAuthenticated } = useAuth();
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showQuoteModal, setShowQuoteModal] = useState(false);
   const [showDashboard, setShowDashboard] = useState(false);
