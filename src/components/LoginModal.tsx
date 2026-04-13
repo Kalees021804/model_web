@@ -277,16 +277,6 @@ const LoginModal = ({ isOpen, onClose }: LoginModalProps) => {
           </button>
         </form>
 
-        <div style={{
-          marginTop: '1.5rem',
-          padding: '1rem',
-          backgroundColor: '#fef3c7',
-          borderRadius: '0.5rem',
-          fontSize: '0.75rem',
-          color: '#92400e'
-        }}>
-          <strong>Note:</strong> Use the email and password you set up in Firebase Authentication.
-        </div>
       </div>
     </div>
   );
