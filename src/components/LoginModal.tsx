@@ -146,7 +146,7 @@ const LoginModal = ({ isOpen, onClose }: LoginModalProps) => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="acadefyxofficial@gmail.com"
+                placeholder="Enter your email"
                 required
                 disabled={loading}
                 style={{
